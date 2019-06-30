@@ -48,19 +48,21 @@ header {
 
 .global-nav {
   float: right;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 .global-nav li {
   float: left;
   margin: 0 20px;
-  font-size: 20px;
+  font-size: 25px;
+  text-shadow: 3px 3px 5px #000000 ;
   list-style: none;
   font-family: 'Bitter', serif;
 }
 
 .global-nav li a {
-  color: #ffffff;
+  color: white;
+  text-shadow: 3px 3px 3px #000000;
 }
 
 .global-nav li a:hover {
@@ -72,9 +74,17 @@ header {
 #wrap {
   clear: both;
   background-color: #ffffff;
-  margin-top: 400px;
+  margin-top: 350px;
   padding: 35px 0;
 }
+
+#wrap2 {
+  clear: both;
+  background-color: #ffffff;
+  margin-top: 100px;
+  padding: 35px 0;
+}
+
 
 #iac {
   width: 600px;
@@ -151,8 +161,8 @@ footer small {
   background-size: cover;
 }
 
-#about {
-  background-image: url(../images/ltc_top.jpg);
+#menbers {
+  background-image: url(../images/fujidana.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -181,16 +191,16 @@ h2 {
   border-left: 7px solid #9cb4a4;
 }
 
-#about .profile-txt {
+#menbers .profile-txt {
   width: 540px;
   float: left;
 }
 
-#about .profile-txt span {
+#menbers .profile-txt span {
   font-weight: bold;
 }
 
-#about .profile-image {
+#menbers .profile-image {
   float: right;
 }
 
@@ -204,14 +214,14 @@ section {
   margin-bottom: 35px;
 }
 
-#about .career th {
+#menbers .career th {
   width: 240px;
   background-color: #f0f0f0;
   padding: 12px 0;
   border: 1px solid #cccccc;
 }
 
-#about .career td {
+#menbers .career td {
   width: 660px;
   padding: 12px 0 12px 40px;
   border: 1px solid #cccccc;
@@ -228,8 +238,8 @@ table {
   padding: 0;
 }
 
-#portfolio {
-  background-image: url(../images/bg-portfolio.jpg);
+#schedule {
+  background-image: url(../images/fujidana.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
