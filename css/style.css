@@ -223,7 +223,6 @@ h2{
 
 
   @media screen and (max-width:600px) {
-  }
   /* 画面サイズが600px以下の場合に適用 */
   
   body {
@@ -262,9 +261,8 @@ h2{
   } 
   
   #wrap {
-    margin-top: 100px;
-    margin-left: 35px;
-    padding: 35px 
+    margin-top: 500px;
+    padding: 35px 0 0; 
   }
   
   .content {
@@ -277,5 +275,5 @@ h2{
     float: none;
   }
   
-  
+  }
   
