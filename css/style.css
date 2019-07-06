@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #cccccc;
+  background-color: white;
   color: #333333;
   font-size: 15px;
   line-height: 2;
@@ -49,6 +49,7 @@ header {
 .global-nav {
   float: right;
   margin-top: 80px;
+  padding-right: 30px;
 }
 
 .global-nav li {
@@ -73,89 +74,13 @@ header {
 
 #wrap {
   clear: both;
-  background-color: #ffffff;
-  margin-top: 350px;
+  background-color : #ffffff;
+  margin-top: 450px;
   padding: 35px 0;
 }
 
-
-#iac {
-  width: 600px;
-  margin-top: 80px;
-}
-
-
-.content {
-  width: 960px;
-  margin: 0 auto;
-}
-
-footer {
-  text-align: center;
-  color: #ffffff;
-  padding: 20px 0;
-  background-color: #767671;
-}
-
-footer small {
-  font-size: 12px;
-}
-
-#index h1 {
-  font-size: 100px;
-  line-height: 1;
-  color: #ffffff;
-  font-family: 'Bitter', serif;
-  margin-bottom: 50px;
-  border: none;
-}
-
-#index .content {
-  margin-top: 150px;
-}
-
-#index p {
-  font-size: 16px;
-  color: #ffffff;
-}
-
-.btn a {
-  background-color: #009cd3;
-  color: #ffffff;
-  font-size: 20px;
-  font-family: 'Bitter', serif;
-  width: 185px;
-  display: block;
-  text-align: center;
-  line-height: 50px;
-  margin-top: 20px;
-  border-radius: 5px;
-  border: 3px solid #009cd3;
-}
-
-.btn a:hover {
-  text-decoration: none;
-  background-color: #ffffff;
-  color: #009cd3;
-}
-
-#index footer {
-  width: 960px;
-  margin: 150px auto 0 auto;
-  text-align: left;
-  background-color: transparent;
-}
-
 #index {
-  background-image: url(../images/ltc.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-#menbers {
-  background-image: url(../images/fujidana.jpg);
+  background-image: url(../images/LTC_top3.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -167,14 +92,12 @@ footer small {
   margin: 0 auto;
 }
 
-h1 {
-  font-family: 'Bitter', serif;
+h1{
   font-size: 36px;
   border-bottom: 1px solid #cccccc;
 }
 
-h2 {
-  font-family: 'Bitter', serif;
+h2{
   font-size: 24px;
 }
 
@@ -184,187 +107,68 @@ h2 {
   border-left: 7px solid #9cb4a4;
 }
 
-#menbers .profile-txt {
-  width: 540px;
-  float: left;
+
+#index .access table {
 }
 
-#menbers .profile-txt span {
-  font-weight: bold;
-}
-
-#menbers .profile-image {
-  float: right;
-}
-
-.clearfix:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-section {
-  margin-bottom: 35px;
-}
-
-#menbers .career th {
-  width: 240px;
-  background-color: #f0f0f0;
-  padding: 12px 0;
-  border: 1px solid #cccccc;
-}
-
-#menbers .career td {
-  width: 660px;
-  padding: 12px 0 12px 40px;
-  border: 1px solid #cccccc;
-}
-
-table {
-  border-spacing: 0;
-  border-collapse: collapse;
-}
-
-#index #wrap {
-  background-color: transparent;
-  margin-top: 0;
-  padding: 0;
-}
-
-#schedule {
-  background-image: url(../images/fujidana.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  background-size: 100% auto;
-}
-
-.main {
-  width: 700px;
-  margin: 0 10px;
-  float: left;
-}
-
-.sidebar {
-  width: 200px;
-  margin: 0 10px 0 30px;
-  float: right;
-  font-family: 'Bitter', serif;
-}
-
-a img:hover {
-  opacity: 0.8;
-}
-
-.sidebar h2 {
-  margin-bottom: 10px;
-}
-
-.sidebar ul {
-  font-size: 16px;
-  margin-left: 20px;
-}
-
-.sidebar ul a {
-  color: #333333;
-}
-
-#photograph {
-  background-image: url(../images/bg-photograph.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  background-size: 100% auto;
-}
-
-#photograph .photograph-list li {
-  float: left;
-  list-style: none;
-  margin: 0 20px 15px 0;
-}
-
-#photograph .photograph-list li:nth-child(3n) {
-  margin-right: 0;
-}
-
-#video {
-  background-image: url(../images/bg-video.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  background-size: 100% auto;
-}
-
-#contact {
-  background-image: url(../images/LTC_top5.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  background-size: 100% auto;
-}
-
-#contact .access table {
-  float: left;
-}
-
-#contact .access th,
-#contact .access td {
+#index .access th,
+#index .access td {
   text-align: left;
   vertical-align: top;
   line-height: 2.5;
 }
 
-#contact .access td {
+#index .access td {
   padding-left: 30px;
 }
 
-#contact .access iframe {
+#index .access iframe {
   width: 460px;
-  float: right;
 }
 
-#contact .form {
+
+#index .form {
   background-color: #eaeaea;
   padding: 30px 50px;
 }
 
-#contact .form dl dt {
+#index .form dl dt {
   width: 165px;
   padding: 10px 0;
   float: left;
   clear: both;
 }
 
-#contact .form dl dd {
+#index .form dl dd {
   padding: 10px 0;
 }
 
-#contact .form .name {
+#index .form .name {
   width: 240px;
   height: 30px;
 }
 
-#contact .form .email {
+#index .form .email {
   width: 300px;
   height: 30px;
 }
 
-#contact .form .tel {
+#index .form .tel {
   width: 240px;
   height: 30px;
 }
 
-#contact .form .type {
+#index .form .type {
   width: 180px;
   height: 30px;
 }
 
-#contact .form .message {
+#index .form .message {
   width: 660px;
   height: 150px;
 }
 
-#contact .form button {
+#index .form button {
   background-color: #009cd3;
   color: #ffffff;
   font-size: 20px;
@@ -377,26 +181,53 @@ a img:hover {
   margin-left: 165px;
 }
 
-#contact .form button:hover {
+#index .form button:hover {
   background-color: #ffffff;
   color: #009cd3;
   cursor: pointer;
 }
 
-#contact .form .required:after {
+#index .form .required:after {
   content: "*";
   color: #ff0000;
 }
 
-#contact .form .attention {
+#index .form .attention {
   margin: 20px 0 0 165px;
 }
 
-@media screen and (max-width:600px) {
+#menbers {
+  background-image: url(../images/fujidana.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+.menber ul{
+  font-size: 16px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+.menber ul a {
+  color: #333333;
+}
+
+#schedule {
+  background-image: url(../images/fujidana.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+
+
+  @media screen and (max-width:600px) {
+  }
   /* 画面サイズが600px以下の場合に適用 */
   
   body {
-   font-size: 3.5vw;
+    font-size: 3.5vw;
   }
   
   h1 {
@@ -414,13 +245,13 @@ a img:hover {
   
   .logo {
     float: none;
-    margin-top: 60px;
+    margin-top: 10px;
     text-align: center;
   }
   
   .global-nav {
     float: none;
-    margin-top: 40px;
+    margin-top: 5px;
     text-align: center;
   }
   
@@ -431,34 +262,20 @@ a img:hover {
   } 
   
   #wrap {
-    margin-top: 40px;
-    padding: 35px 0 0;
+    margin-top: 100px;
+    margin-left: 35px;
+    padding: 35px 
   }
   
   .content {
     width: 100%;
   }
   
-  .main {
+  .main-center {
+    margin-top: 100px
+    width: 100%;
     float: none;
-    width: auto;
-    margin: 0 5%;
   }
   
-  h2 img {
-    max-width: 100%;
-  }
   
-  #portfolio {
-    background-image: url(../images/bg-portfolio-sp.jpg);
-  }
   
-  .sidebar {
-    width: auto;
-    float: none;
-    margin: 0;
-    padding: 30px 10% 10px;
-    background-color: #f7f6f4;
-  }
-  
-}
