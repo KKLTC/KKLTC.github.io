@@ -261,34 +261,35 @@ h2{
   } 
   
   #wrap {
+    clear: both;
+    width: auto;
     margin-top: 40px;
-    padding: 35px 0 0; 
+    margin-left: 5%;
   }
   
 .content {
     width: 100%;
+    padding-left: 50px;
   }
 
-#contact {
-  background-image: url(../images/LTC_top5.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  background-size: 100% auto;
-}
+    .main-center {
+      width: 100% auto;
+      padding-left: 35px;
+    }
 
-#contact .access table {
+#index .access table {
   float: none;
+  margin-left: 35px;
 }
 
-#contact .access th,
-#contact .access td {
+#index .access th,
+#index .access td {
   text-align: none;
   vertical-align: top;
   line-height: 2.5;
 }
 
-#contact .access td {
+#index .access td {
   padding-left: 30px;
 }
 
